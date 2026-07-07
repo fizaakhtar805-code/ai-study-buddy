@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Quiz Generator — AI Study Buddy</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <a href="index.html" class="back-link">← Back to Dashboard</a>
+    <h1>📝 AI Quiz Generator</h1>
+    <p class="subtitle">Paste your notes or type a topic to generate a quiz</p>
+
+    <textarea id="notesInput" placeholder="Paste your notes here, or type a topic like 'Photosynthesis'..."></textarea>
+
+    <div class="options-row">
+      <label for="numQuestions">Number of questions:</label>
+      <select id="numQuestions">
+        <option value="3">3</option>
+        <option value="5" selected>5</option>
+        <option value="7">7</option>
+        <option value="10">10</option>
+        <option value="15">15</option>
+        <option value="20">20</option>
+      </select>
+    </div>
+
+    <button id="generateBtn">Generate Quiz</button>
+
+    <div id="loading" class="hidden loading-box">Generating your quiz... please wait ⏳</div>
+    <div id="quizContainer"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

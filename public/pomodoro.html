@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pomodoro Timer — AI Study Buddy</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <a href="index.html" class="back-link">← Back to Dashboard</a>
+    <h1>⏱️ Pomodoro Timer</h1>
+    <p class="subtitle">Stay focused with timed study sessions</p>
+
+    <div class="pomodoro-modes">
+      <button class="mode-btn active" data-minutes="25">Study Time</button>
+      <button class="mode-btn" data-minutes="5">Short Break</button>
+      <button class="mode-btn" data-minutes="15">Long Break</button>
+    </div>
+
+    <div class="timer-display" id="timerDisplay">25:00</div>
+
+    <div class="timer-controls">
+      <button id="startBtn">Start</button>
+      <button id="pauseBtn">Pause</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+
+    <p class="flip-hint">💡 Press Space to Start/Pause, R to Reset</p>
+  </div>
+
+  <script src="pomodoro.js"></script>
+</body>
+</html>

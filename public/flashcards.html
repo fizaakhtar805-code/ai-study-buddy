@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Flashcards — AI Study Buddy</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <a href="index.html" class="back-link">← Back to Dashboard</a>
+    <h1>🗂️ AI Flashcards</h1>
+    <p class="subtitle">Paste your notes or type a topic to generate flashcards</p>
+
+    <textarea id="notesInput" placeholder="Paste your notes here, or type a topic like 'Photosynthesis'..."></textarea>
+
+    <div class="options-row">
+      <label for="numCards">Number of flashcards:</label>
+      <select id="numCards">
+        <option value="4">4</option>
+        <option value="6" selected>6</option>
+        <option value="8">8</option>
+        <option value="10">10</option>
+      </select>
+    </div>
+
+    <button id="generateBtn">Generate Flashcards</button>
+
+    <div id="loading" class="hidden loading-box">Generating your flashcards... please wait ⏳</div>
+    <div id="flashcardContainer" class="flashcard-grid"></div>
+    <p id="flipHint" class="hidden flip-hint">💡 Click a card to flip it and see the answer</p>
+  </div>
+
+  <script src="flashcards.js"></script>
+</body>
+</html>

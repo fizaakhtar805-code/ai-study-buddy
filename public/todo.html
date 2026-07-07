@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To-Do List — AI Study Buddy</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <a href="index.html" class="back-link">← Back to Dashboard</a>
+    <h1><span class="pink-check">✓</span> To-Do List</h1>
+    <p class="subtitle">Keep track of your study tasks</p>
+
+    <div class="todo-input-row">
+      <input type="text" id="taskInput" placeholder="Write your task..." />
+      <button id="addBtn">Add</button>
+    </div>
+
+    <p id="taskStats" class="task-stats">0 tasks • 0 completed</p>
+
+    <div id="taskList" class="task-list"></div>
+  </div>
+
+  <script src="todo.js"></script>
+</body>
+</html>
