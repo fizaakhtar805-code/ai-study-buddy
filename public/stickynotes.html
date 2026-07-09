@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sticky Notes — AI Study Buddy</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container sticky-container">
+    <a href="index.html" class="back-link">← Back to Dashboard</a>
+    <h1>📌 Sticky Notes</h1>
+    <p class="subtitle">Drag notes around, click + to add a new one</p>
+
+    <div class="sticky-toolbar">
+      <input type="text" id="noteInput" placeholder="Write a quick note..." />
+      <button id="addNoteBtn">+ Add Note</button>
+    </div>
+
+    <div id="stickyBoard" class="sticky-board"></div>
+  </div>
+
+  <script src="stickynotes.js"></script>
+</body>
+</html>

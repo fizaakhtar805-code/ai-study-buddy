@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Doodle Pad — AI Study Buddy</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <a href="index.html" class="back-link">← Back to Dashboard</a>
+    <h1>🎨 Doodle Pad</h1>
+    <p class="subtitle">A quick space to sketch, diagram, or doodle while you think</p>
+
+   <div class="doodle-toolbar">
+  <input type="color" id="colorPicker" value="#ff6f91" />
+  <input type="range" id="brushSize" min="1" max="20" value="4" />
+  <button id="pencilBtn" class="tool-btn active">✏️ Pencil</button>
+  <button id="eraserBtn" class="tool-btn">🧹 Eraser</button>
+  <button id="clearBtn">Clear All</button>
+</div>
+
+    <canvas id="doodleCanvas" class="doodle-canvas"></canvas>
+  </div>
+
+  <script src="doodle.js"></script>
+</body>
+</html>
