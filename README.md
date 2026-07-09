@@ -30,48 +30,54 @@ AI Study Buddy is a student productivity dashboard that turns any study notes or
 - **Version Control:** Git & GitHub
 
 ## 📂 Project Structure
-ai-study-buddy/
-├── backend/
-│   ├── server.js
-│   ├── package.json
-│   └── .env (not included — see setup below)
-├── public/
-│   ├── index.html
-│   ├── quiz.html
-│   ├── flashcards.html
-│   ├── pomodoro.html
-│   ├── todo.html
-│   ├── affirmations.html
-│   ├── stickynotes.html
-│   ├── doodle.html
-│   ├── style.css
-│   ├── script.js
-│   ├── flashcards.js
-│   ├── pomodoro.js
-│   ├── todo.js
-│   ├── affirmations.js
-│   ├── stickynotes.js
-│   ├── doodle.js
-│   ├── streak.js
-│   └── images/
-└── README.md
+
+    ai-study-buddy/
+    ├── backend/
+    │   ├── server.js
+    │   ├── package.json
+    │   └── .env (not included — see setup below)
+    ├── public/
+    │   ├── index.html
+    │   ├── quiz.html
+    │   ├── flashcards.html
+    │   ├── pomodoro.html
+    │   ├── todo.html
+    │   ├── affirmations.html
+    │   ├── stickynotes.html
+    │   ├── doodle.html
+    │   ├── style.css
+    │   ├── script.js
+    │   ├── flashcards.js
+    │   ├── pomodoro.js
+    │   ├── todo.js
+    │   ├── affirmations.js
+    │   ├── stickynotes.js
+    │   ├── doodle.js
+    │   ├── streak.js
+    │   └── images/
+    └── README.md
 
 ## ⚙️ Installation & Setup
 
 1. **Clone the repository:**
-git clone https://github.com/fizaakhtar805-code/ai-study-buddy.git
-cd ai-study-buddy/backend
+
+       git clone https://github.com/fizaakhtar805-code/ai-study-buddy.git
+       cd ai-study-buddy/backend
 
 2. **Install dependencies:**
-npm install
+
+       npm install
 
 3. **Add your Groq API key:**
    Create a `.env` file inside the `backend` folder with:
-GROQ_API_KEY=your_groq_api_key_here
+
+       GROQ_API_KEY=your_groq_api_key_here
+
    (Get a free key at [console.groq.com/keys](https://console.groq.com/keys))
 
 4. **Start the server:**
-node server.js
+
+       node server.js
 
 5. **Open the app:**
    Visit `http://localhost:5000` in your browser.
@@ -85,6 +91,14 @@ node server.js
 5. For Affirmations: click "New Affirmation" for a fresh motivational message.
 6. For Sticky Notes: type a note, click "+ Add Note", then drag it anywhere on the board.
 7. For Doodle Pad: pick a color and brush size, switch between Pencil and Eraser, and sketch freely.
+
+   Screen Shots:
+   <img width="959" height="436" alt="image" src="https://github.com/user-attachments/assets/ad638fef-6082-4341-a3de-749ba78dc09c" />
+   <img width="955" height="437" alt="image" src="https://github.com/user-attachments/assets/80261ef1-7d6f-444b-ad84-0953850de7d0" />
+  <img width="959" height="439" alt="image" src="https://github.com/user-attachments/assets/0ba978df-8943-49af-b1c5-3d9bce033c1e" />
+  <img width="857" height="443" alt="image" src="https://github.com/user-attachments/assets/433d4b8d-0c79-4bb8-80a8-5e6e63bf9fab" />
+
+
 
 
 ## 🚀 Future Improvements
